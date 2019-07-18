@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body,
+html,
+#root,
+.container {
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.head {
+  background: blue;
+  font-family: sans-serif;
+}
+.body {
+  flex-grow: 1;
+  font-family: sans-serif;
+  color: white;
+  background: black;
+}
+.foot {
+  font-family: sans-serif;
+  background: blue;
+}
